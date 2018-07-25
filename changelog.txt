@@ -1,0 +1,34 @@
+﻿Change Log for برنامہ نویسی در زبان سی
+Author: سید عرفان احمد
+
+
+Version 001
+
+*	Not circulated (for internal review only)
+	
+-------------------------------------------------------------
+Version 002
+
+*	Released 7th July, 2018
+	
+-------------------------------------------------------------
+Version 003
+
+*	Released 25th July, 2018
+
+*	Page count unchanged
+*	Added low-res printing rights
+*	Added the github address to the title
+
+*	Minor format changes to produce a better pdf
+*	Minor word changes
+*	Added 3 omitted entries in the terminology table
+*	Have not updated the word count figure in appendix
+
+
+-------------------------------------------------------------
+
+
+
+-------------------------------------------------------------
+-------------------------------------------------------------
