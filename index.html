@@ -4,8 +4,7 @@
 	<meta charset='utf-8'>
 	<title>کوچۂ فن آوری</title>
 	<script async src="https://static.addtoany.com/menu/page.js"></script>	
-	<link rel="stylesheet" type="text/css" href="./css/koofa.css"></link>
-	
+	<link rel="stylesheet" type="text/css" href="./css/koofa.css"> />
 	<script src="./scripts/koofa.js" type="text/javascript"></script>
 </head>
 
@@ -30,15 +29,18 @@
 	</h3>	
 	<p>Please click image to download the latest version.</br>
 	</br>
+	<!--
 	<a href="https://github.com/koocha-e-fun-aavri/clang_web_edition/raw/master/(2018_006)%D8%A8%D8%B1%D9%86%D8%A7%D9%85%DB%81%20%D9%86%D9%88%DB%8C%D8%B3%DB%8C%20%D8%AF%D8%B1%20%D8%B2%D8%A8%D8%A7%D9%86%20%D8%B3%DB%8C_(%D8%A7_%D8%A8_%D8%A7)%20_%D8%B3%DB%8C%D8%AF%20%D8%B9%D8%B1%D9%81%D8%A7%D9%86%20%D8%A7%D8%AD%D9%85%D8%AF.pdf">
 	<img src="https://github.com/koocha-e-fun-aavri/clang_web_edition/raw/master/clang_book_cover.png" alt="Cover page" style="float:right, width:350px;height:450px;border:0;"></a>
 	</br>
 	<p>If you proceed to the <a href="https://github.com/koocha-e-fun-aavri/clang_web_edition/">repository</a> from your smartphones, then<br>
 	<p>press ≡, and select 'Use Desktop Site' to see all the files.</br>
 	<h4>This is a forever free web edition</h4>
+	-->
 	‏<hr>
 	</p>
 	<h3>Social Media - اشتراک گزاری</h3>
+	<!-- AddToAny BEGIN -->
 	<div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://syed-irfan-ahmed.github.io/" data-a2a-title="کوچۂ فن آوری">
 	<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
 	<a class="a2a_button_facebook"></a>
@@ -52,28 +54,24 @@
 	<p>آپ کی عنایتوں کا شکریہ</p>
 	<p>نیاز مند <p>
 	<h4>سید عرفان احمد</h4>
-	<br>
-	<!-- AddToAny BEGIN -->
-
-	
 	<!-- AddToAny END -->	
 	<hr>
 
 	<!-- Tab buttons and links -->
 	<div class="tab">
-		<button class="miscLinks" onclick="openInfoTab(event, 'Mission')">Mission</button>
+		<button class="miscLinks" onclick="openInfoTab(event, 'Mission')" id="defaultOpen">Mission</button>
 		<button class="miscLinks" onclick="openInfoTab(event, 'Announcements')">Announcements</button>
 		<button class="miscLinks" onclick="openInfoTab(event, 'Support')">Support</button>
 		<button class="miscLinks" onclick="openInfoTab(event, 'Contact')">Contact</button>
 	</div>
-		
+
 		<!-- Tab contents -->
 		<div id="Mission" class="miscInfo">
 		<h3> Mission</h3>
-		<ul>
+		<ul dir="rtl">
 			<li>اردو زبان میں فنی اور تکنیکی مواد کی فراہمی </li>
 			<li>عوام کے لئے فن و تکنیک کو قابل رسائی بنانا</li>
-			<li></li>
+			<li>ہر تعلیمی سطح کے لئے فنی اور تکنیکی مواد مرتب کرنا</li>
 		</ul>
 		<br>
 		</div>		
@@ -115,7 +113,11 @@
 			&#9988;-----یعنی نسخہ جات@گرم میل نقطہ کام
 			<br>
 		</div>
-	<br>
+		<!-- default mission tab -->	
+		<script>
+		document.getElementById("defaultOpen").click();
+		</script>
+		<br>
 	<hr>
 
 	<br>	
