@@ -43,6 +43,14 @@ body
     background-color: #4ab;
 }
 
+div.miscInfo
+{
+	padding: 10px 10px;
+	margin: 0px 10px 10px 0px;
+	width: 100%;
+	height: 350px;
+}
+
 /* Style the tab content */
 .miscInfo {
     display: none;
