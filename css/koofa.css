@@ -44,17 +44,14 @@ body
     background-color: #4ab;
 }
 
-div.miscInfo
-{
-	min-height: 350px;
-	padding: 10px 10px 10px 10px;
-}
+
 
 /* Style the tab content */
 .miscInfo {
     display: none;
 	animation: fadeEffect 0.6s;
-    padding: 6px 12px;
+    padding: 10px 10px 10px 10px;
+	min-height: 350px;
     border: 1px solid #ccc;
     border-top: none;
 }
