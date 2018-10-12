@@ -1,10 +1,14 @@
+@font-face
+{
+	font-family: 'Noto Nastaliq Urdu';
+	src: url('./fonts/NotoNastaliqUrdu-Regular.ttf');
+}
 
 div.UrduRender, span.UrduRender
 {
-	font-family: 'JameelKhushkhatiRegular', 'Alvi Nastaleeq', 'Jameel Noori Nastaleeq', , 'Cambria', serif;
-	font-weight:normal;
+	font-family:  'Alvi Nastaleeq', 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', 'Cambria', serif;
 	font-size:  1.3em;
-	line-height: 135%
+	line-height: 135%;
 }
 
 body
