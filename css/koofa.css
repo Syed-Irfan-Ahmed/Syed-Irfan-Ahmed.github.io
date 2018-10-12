@@ -12,7 +12,8 @@ body
 	font-family: 'Cambria', Helvetica, serif;
 	letter-spacing: 0.5px;
 	font-size: 1em;
-	line-height: 130%
+	line-height: 130%;
+	margin: 20px 20px 20px 20px
 }
 
 /* Style the tab */ 
@@ -45,9 +46,6 @@ body
 
 div.miscInfo
 {
-	padding: 10px 10px;
-	margin: 0px 10px 10px 0px;
-	width: 100%;
 	height: 350px;
 }
 
