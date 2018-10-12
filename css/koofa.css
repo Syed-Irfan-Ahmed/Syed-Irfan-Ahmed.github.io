@@ -1,17 +1,20 @@
-@import url(//fonts.googleapis.com/earlyaccess/notonastaliqurdudraft.css);
+@import url(./fonts/NotoNastaliqUrdu-Regular.ttf);
 
-.UrduRender
+div.UrduRender, span.UrduRender
 {
 	font-family: 'Noto Nastaliq Urdu', 'Alvi Nastaleeq', 'Jameel Noori Nastaleeq', 'Cambria', serif;
 	font-size:  1.3em;
 	line-height: 135%
 }
-.UrduRender li
+
+body
 {
-	font-size: 1.2em;
-	line-height: 140%;
-	margin-right: 40%;
+	font-family: 'Cambria', Helvetica, serif;
+	letter-spacing: 0.5px;
+	font-size: 1em;
+	line-height: 130%
 }
+
 /* Style the tab */ 
 .tab {
     overflow: hidden;
