@@ -11,7 +11,12 @@ div.UrduRender, span.UrduRender
 	line-height: 135%;
 }
 
-body
+img 
+{
+	max-height:500px;
+	max-width:100%;
+}
+
 {
 	font-family: 'Cambria', Helvetica, serif;
 	letter-spacing: 0.5px;
