@@ -9,7 +9,6 @@
 	
 	<title>کوچۂ فن آوری</title>
 	<link rel="stylesheet" type="text/css" href="./css/koofa.css">
-	<script src="./scripts/koofa.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -64,11 +63,6 @@
 		<button class="miscLinks" onclick="openInfoTab(event, 'Endorsement')">Endorsement</button>
 		<button class="miscLinks" onclick="openInfoTab(event, 'Donations')">Donations</button>
 		<button class="miscLinks" onclick="openInfoTab(event, 'Upcoming')">Upcoming</button>
-		<button class="miscLinks" onclick="openInfoTab(event, 'Consultation')">Consultation</button>
-		<button class="miscLinks" onclick="openInfoTab(event, 'Academic')">Academic</button>		
-		<button class="miscLinks" onclick="openInfoTab(event, 'Community')">Community</button>
-		<button class="miscLinks" onclick="openInfoTab(event, 'About Me')">About Me</button>
-		<button class="miscLinks" onclick="openInfoTab(event, 'Contact')">Contact</button>
 	</div>
 	<hr>
 		<!-- Tab contents -->
@@ -250,14 +244,22 @@
 				<br>
 		</div>
 			
-		<script>
-		document.getElementById("defaultOpen").click();
-		</script>
+	<hr>
+	<!-- Personal tabs go here-->
+	
+	<div class="tab">
+		<button class="miscLinks" onclick="openInfoTab(event, 'Consultation')">Consultation</button>
+		<button class="miscLinks" onclick="openInfoTab(event, 'Academic')">Academic</button>		
+		<button class="miscLinks" onclick="openInfoTab(event, 'Community')">Community</button>
+		<button class="miscLinks" onclick="openInfoTab(event, 'About Me')">About Me</button>
+		<button class="miscLinks" onclick="openInfoTab(event, 'Contact')">Contact</button>
+	</div>
 	<hr>
 
 	<br>	
 	<script async src="https://static.addtoany.com/menu/page.js" alt="Social buttons"></script>
-	
+	<script src="./scripts/koofa.js" type="text/javascript"></script>
+	<script>document.getElementById("defaultOpen").click();</script>
 </body>
 
 </html>
