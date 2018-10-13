@@ -17,10 +17,11 @@ img
 	max-width:100%;
 }
 
+body
 {
 	font-family: 'Cambria', Helvetica, serif;
-	letter-spacing: 0.5px;
-	font-size: 1em;
+	letter-spacing: 0.03em;
+	font-size: 1.05em;
 	line-height: 130%;
 	padding: 10px 10px 10px 10px;
 }
